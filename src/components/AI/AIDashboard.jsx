@@ -5,7 +5,7 @@ import FeedbackGenerator   from "./FeedbackGenerator";
 import ChatbotTab          from "./ChatbotTab";
 import ReportSummarizerTab from "./ReportSummarizerTab";
 import SmartReportGrader   from "./SmartReportGrader";
-import MilestoneRiskTab    from "./MilestoneRiskTab";
+import MilestoneRiskTab    from "./MileStoneRiskTab";
 import EvalPredictorTab    from "./EvalPredictorTab";
 import EvalReportTab       from "./EvalReportTab";
 
