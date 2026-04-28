@@ -1,12 +1,35 @@
-# React + Vite
+# 🎓 Academic Project Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application for managing final year projects with AI-powered features.
 
-Currently, two official plugins are available:
+##  Live Demo
+ **[https://grand-paprenjak-7c3d9c.netlify.app](https://grand-paprenjak-7c3d9c.netlify.app)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Test Credentials
+- **Student** — register a new account
+- **Teacher/Admin** — added by system administrator
 
-## Expanding the ESLint configuration
+##  Tech Stack
+| Layer | Technology |
+|-------|-----------|
+| Frontend | React 19, Vite, Tailwind CSS, Redux |
+| Backend | Node.js, Express, Socket.io |
+| AI Service | Python, FastAPI (Pure NLP - No external API) |
+| Database | MongoDB Atlas |
+| Hosting | Netlify + Render |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  AI Features
+- Plagiarism Checker (TF-IDF + Cosine Similarity)
+- Smart Report Grader (Flesch Readability + Academic Vocabulary)
+- AI Progress Risk Analyzer
+- Report Summarizer
+- Viva Question Generator
+- AI Chatbot
+
+##  Key Features
+- Role-based access (Student, Teacher, Admin)
+- Real-time chat (Socket.io)
+- File upload via Cloudinary
+- Email notifications
+- Milestone tracking
+- Evaluation system
